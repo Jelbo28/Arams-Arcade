@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 8702e75351448b946916b8475e1e90d0
+timeCreated: 1464094725
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Robo-Parts-V2_0
+    21300002: Robo-Parts-V2_1
+    21300004: Robo-Parts-V2_2
+    21300006: Robo-Parts-V2_3
+    21300008: Robo-Parts-V2_4
+    21300010: Robo-Parts-V2_5
+    21300012: Robo-Parts-V2_6
+    21300014: Robo-Parts-V2_7
+    21300016: Robo-Parts-V2_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Robo-Parts-V2_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 334
+        width: 251
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125.5, y: 35.5}
+        - {x: 120.5, y: 61.5}
+        - {x: 59.5, y: 116.5}
+        - {x: 38.5, y: 128.5}
+        - {x: -75.5, y: 128.5}
+        - {x: -117.5, y: 82.5}
+        - {x: -116.5, y: 66.5}
+        - {x: -125.5, y: 14.5}
+        - {x: -125.5, y: -44.5}
+        - {x: -106.5, y: -68.5}
+        - {x: -62.5, y: -86.5}
+        - {x: -49.5, y: -118.5}
+        - {x: -29.5, y: -128.5}
+        - {x: 25.5, y: -128.5}
+        - {x: 100.5, y: -105.5}
+        - {x: 115.5, y: -39.5}
+        - {x: 125.5, y: 2.5}
+    - name: Robo-Parts-V2_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 370
+        width: 110
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 55.5}
+        - {x: -47, y: 32.5}
+        - {x: -55, y: -13.5}
+        - {x: -55, y: -55.5}
+        - {x: -18, y: -55.5}
+        - {x: 55, y: -19.5}
+        - {x: 55, y: 39.5}
+        - {x: 24, y: 55.5}
+    - name: Robo-Parts-V2_2
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 383
+        width: 113
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 103}
+        - {x: -56.5, y: 91}
+        - {x: -56.5, y: 73}
+        - {x: -38.5, y: 33}
+        - {x: -56.5, y: -36}
+        - {x: -56.5, y: -103}
+        - {x: -4.5, y: -103}
+        - {x: 56.5, y: -92}
+        - {x: 56.5, y: 101}
+        - {x: 39.5, y: 103}
+    - name: Robo-Parts-V2_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 130
+        width: 160
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 62}
+        - {x: -80, y: 19}
+        - {x: -80, y: -56}
+        - {x: -71, y: -62}
+        - {x: 8, y: -62}
+        - {x: 11, y: -61}
+        - {x: 80, y: -3}
+        - {x: 80, y: 62}
+    - name: Robo-Parts-V2_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 118
+        width: 105
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 95.5}
+        - {x: -52.5, y: 70.5}
+        - {x: -52.5, y: -25.5}
+        - {x: 12.5, y: -95.5}
+        - {x: 48.5, y: -95.5}
+        - {x: 52.5, y: -86.5}
+        - {x: 52.5, y: -32.5}
+        - {x: 16.5, y: 95.5}
+    - name: Robo-Parts-V2_5
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 197
+        width: 101
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 66}
+        - {x: -40.5, y: 65}
+        - {x: -50.5, y: 51}
+        - {x: -50.5, y: -66}
+        - {x: 37.5, y: -66}
+        - {x: 50.5, y: -11}
+        - {x: 50.5, y: 55}
+        - {x: 43.5, y: 66}
+    - name: Robo-Parts-V2_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 8
+        width: 267
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -133.5, y: -54}
+        - {x: -5.5, y: -54}
+        - {x: 133.5, y: -26}
+        - {x: 133.5, y: 14}
+        - {x: 130.5, y: 25}
+        - {x: -9.5, y: 54}
+        - {x: -129.5, y: 54}
+        - {x: -133.5, y: 44}
+    - name: Robo-Parts-V2_7
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 18
+        width: 88
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 39.5}
+        - {x: -44, y: 27.5}
+        - {x: -44, y: -35.5}
+        - {x: -43, y: -39.5}
+        - {x: 31, y: -39.5}
+        - {x: 44, y: -20.5}
+        - {x: 44, y: 11.5}
+        - {x: 36, y: 39.5}
+    - name: Robo-Parts-V2_8
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 6
+        width: 133
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 52.5}
+        - {x: -51.5, y: 44.5}
+        - {x: -66.5, y: 29.5}
+        - {x: -66.5, y: 3.5}
+        - {x: -61.5, y: -10.5}
+        - {x: -24.5, y: -45.5}
+        - {x: 1.5, y: -52.5}
+        - {x: 65.5, y: -52.5}
+        - {x: 66.5, y: -47.5}
+        - {x: 66.5, y: 44.5}
+        - {x: 45.5, y: 52.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: f00ea94880cb2574b91ca2ee3a1dadf0
+timeCreated: 1464183814
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ArmBolt1
+    100002: ArmBolt2
+    100004: ClawBolt1
+    100006: ClawBolt2
+    100008: ClawSupport
+    100010: ClawSupportBolt1
+    100012: ClawSupportBolt2
+    100014: CraneArm1
+    100016: CraneArm2
+    100018: CraneClaws
+    100020: CraneHolder_Left
+    100022: CraneHolder_Right
+    100024: CranePlatform
+    100026: CraneSupport
+    100028: //RootNode
+    400000: ArmBolt1
+    400002: ArmBolt2
+    400004: ClawBolt1
+    400006: ClawBolt2
+    400008: ClawSupport
+    400010: ClawSupportBolt1
+    400012: ClawSupportBolt2
+    400014: CraneArm1
+    400016: CraneArm2
+    400018: CraneClaws
+    400020: CraneHolder_Left
+    400022: CraneHolder_Right
+    400024: CranePlatform
+    400026: CraneSupport
+    400028: //RootNode
+    2300000: ArmBolt1
+    2300002: ArmBolt2
+    2300004: ClawBolt1
+    2300006: ClawBolt2
+    2300008: ClawSupport
+    2300010: ClawSupportBolt1
+    2300012: ClawSupportBolt2
+    2300014: CraneArm1
+    2300016: CraneArm2
+    2300018: CraneClaws
+    2300020: CraneHolder_Left
+    2300022: CraneHolder_Right
+    2300024: CranePlatform
+    2300026: CraneSupport
+    3300000: ArmBolt1
+    3300002: ArmBolt2
+    3300004: ClawBolt1
+    3300006: ClawBolt2
+    3300008: ClawSupport
+    3300010: ClawSupportBolt1
+    3300012: ClawSupportBolt2
+    3300014: CraneArm1
+    3300016: CraneArm2
+    3300018: CraneClaws
+    3300020: CraneHolder_Left
+    3300022: CraneHolder_Right
+    3300024: CranePlatform
+    3300026: CraneSupport
+    4300000: CranePlatform
+    4300002: CraneHolder_Right
+    4300004: CraneHolder_Left
+    4300006: CraneSupport
+    4300008: CraneArm1
+    4300010: CraneArm2
+    4300012: ClawBolt1
+    4300014: ClawBolt2
+    4300016: ClawSupport
+    4300018: ArmBolt1
+    4300020: ArmBolt2
+    4300022: CraneClaws
+    4300024: ClawSupportBolt1
+    4300026: ClawSupportBolt2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

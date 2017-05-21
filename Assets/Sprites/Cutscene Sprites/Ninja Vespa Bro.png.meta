@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: c8b3098a3c382364e855369060c40d0d
+timeCreated: 1460071090
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ninja Vespa Bro_0
+    21300002: Ninja Vespa Bro_1
+    21300004: Ninja Vespa Bro_2
+    21300006: Ninja Vespa Bro_3
+    21300008: Ninja Vespa Bro_4
+    21300010: Ninja Vespa Bro_6
+    21300012: Ninja Vespa Bro_7
+    21300014: Ninja Vespa Bro_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Ninja Vespa Bro_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 493
+        width: 404
+        height: 328
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ninja Vespa Bro_1
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 486
+        width: 404
+        height: 328
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ninja Vespa Bro_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 372
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: .500001252, y: .317485362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ninja Vespa Bro_3
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 372
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ninja Vespa Bro_4
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 372
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ninja Vespa Bro_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 93
+        width: 404
+        height: 328
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ninja Vespa Bro_7
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 372
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ninja Vespa Bro_8
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 372
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

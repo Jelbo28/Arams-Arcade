@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: f958bf99daceda748ba574458ad44162
+timeCreated: 1464183796
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm Piece1
+    100002: Arm Piece2
+    100004: Arm Piece3
+    100006: Arm Piece4
+    100008: Circuit 4
+    100010: Circuit_3
+    100012: Circuit_5
+    100014: Circuit_6
+    100016: Circuit_Top_Left
+    100018: Circuit_Top_Left1
+    100020: Circuit_Top_Right
+    100022: //RootNode
+    100024: Cricuit_Top_Right2
+    100026: Joint1
+    100028: Joint2
+    100030: Joint3
+    100032: LargeClaw_003
+    100034: LargeClaw_1
+    100036: LargeClaw_2
+    100038: Sphere Joint
+    100040: Tank
+    100042: Tank_Support
+    100044: Tank_Wiring1
+    100046: Tank_Wiring2
+    100048: Wiring_Bottom
+    100050: Wiring_Top_Left
+    100052: Wiring_Top_Right
+    400000: Arm Piece1
+    400002: Arm Piece2
+    400004: Arm Piece3
+    400006: Arm Piece4
+    400008: Circuit 4
+    400010: Circuit_3
+    400012: Circuit_5
+    400014: Circuit_6
+    400016: Circuit_Top_Left
+    400018: Circuit_Top_Left1
+    400020: Circuit_Top_Right
+    400022: //RootNode
+    400024: Cricuit_Top_Right2
+    400026: Joint1
+    400028: Joint2
+    400030: Joint3
+    400032: LargeClaw_003
+    400034: LargeClaw_1
+    400036: LargeClaw_2
+    400038: Sphere Joint
+    400040: Tank
+    400042: Tank_Support
+    400044: Tank_Wiring1
+    400046: Tank_Wiring2
+    400048: Wiring_Bottom
+    400050: Wiring_Top_Left
+    400052: Wiring_Top_Right
+    2300000: Arm Piece1
+    2300002: Arm Piece2
+    2300004: Arm Piece3
+    2300006: Arm Piece4
+    2300008: Circuit 4
+    2300010: Circuit_3
+    2300012: Circuit_5
+    2300014: Circuit_6
+    2300016: Circuit_Top_Left
+    2300018: Circuit_Top_Left1
+    2300020: Circuit_Top_Right
+    2300022: Cricuit_Top_Right2
+    2300024: Joint1
+    2300026: Joint2
+    2300028: Joint3
+    2300030: LargeClaw_003
+    2300032: LargeClaw_1
+    2300034: LargeClaw_2
+    2300036: Sphere Joint
+    2300038: Tank
+    2300040: Tank_Support
+    2300042: Tank_Wiring1
+    2300044: Tank_Wiring2
+    2300046: Wiring_Bottom
+    2300048: Wiring_Top_Left
+    2300050: Wiring_Top_Right
+    3300000: Arm Piece1
+    3300002: Arm Piece2
+    3300004: Arm Piece3
+    3300006: Arm Piece4
+    3300008: Circuit 4
+    3300010: Circuit_3
+    3300012: Circuit_5
+    3300014: Circuit_6
+    3300016: Circuit_Top_Left
+    3300018: Circuit_Top_Left1
+    3300020: Circuit_Top_Right
+    3300022: Cricuit_Top_Right2
+    3300024: Joint1
+    3300026: Joint2
+    3300028: Joint3
+    3300030: LargeClaw_003
+    3300032: LargeClaw_1
+    3300034: LargeClaw_2
+    3300036: Sphere Joint
+    3300038: Tank
+    3300040: Tank_Support
+    3300042: Tank_Wiring1
+    3300044: Tank_Wiring2
+    3300046: Wiring_Bottom
+    3300048: Wiring_Top_Left
+    3300050: Wiring_Top_Right
+    4300000: LargeClaw_1
+    4300002: Joint1
+    4300004: Arm Piece2
+    4300006: Joint2
+    4300008: Arm Piece1
+    4300010: Joint3
+    4300012: Arm Piece4
+    4300014: Sphere Joint
+    4300016: LargeClaw_2
+    4300018: Arm Piece3
+    4300020: Circuit_Top_Left
+    4300022: Circuit_Top_Right
+    4300024: Wiring_Top_Left
+    4300026: Circuit_Top_Left1
+    4300028: Wiring_Top_Right
+    4300030: Cricuit_Top_Right2
+    4300032: Tank
+    4300034: Tank_Support
+    4300036: Circuit_3
+    4300038: Tank_Wiring1
+    4300040: Circuit_5
+    4300042: Tank_Wiring2
+    4300044: Wiring_Bottom
+    4300046: Circuit 4
+    4300048: Circuit_6
+    4300050: LargeClaw_003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

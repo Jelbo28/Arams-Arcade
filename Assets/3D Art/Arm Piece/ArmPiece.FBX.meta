@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: e6465ccb781b55542a113714e1269f9f
+timeCreated: 1464696922
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BottomHalf_Joint1
+    100004: BottomHalf_Joint2
+    100006: BottomHalf_Joint3
+    100008: Claw1
+    100010: Claw2
+    100012: Claw_Splitter
+    100014: ClawHolder_Left
+    100016: ClawHolder_Right
+    100018: Flat_Joint
+    100020: Joint on top of Sphere
+    100022: Joint out of Sphere
+    100024: Joint1
+    100026: Joint2
+    100028: Piece1_Bolt1
+    100030: Piece1_Bolt2
+    100032: Piece1_Bolt3
+    100034: Piece1_Bolt4
+    100036: Piece1_Bolt5
+    100038: Piece1_Bolt6
+    100040: Piece2_Bolt1
+    100042: Piece2_Bolt2
+    100044: Piece2_Bolt3
+    100046: Piece2_Bolt4
+    100048: Piece2_Bolt5
+    100050: Piece2_Bolt6
+    100052: Sphere_Joint
+    100054: Steel_Arm_Piece1
+    100056: Steel_Arm_Piece2
+    400000: //RootNode
+    400002: BottomHalf_Joint1
+    400004: BottomHalf_Joint2
+    400006: BottomHalf_Joint3
+    400008: Claw1
+    400010: Claw2
+    400012: Claw_Splitter
+    400014: ClawHolder_Left
+    400016: ClawHolder_Right
+    400018: Flat_Joint
+    400020: Joint on top of Sphere
+    400022: Joint out of Sphere
+    400024: Joint1
+    400026: Joint2
+    400028: Piece1_Bolt1
+    400030: Piece1_Bolt2
+    400032: Piece1_Bolt3
+    400034: Piece1_Bolt4
+    400036: Piece1_Bolt5
+    400038: Piece1_Bolt6
+    400040: Piece2_Bolt1
+    400042: Piece2_Bolt2
+    400044: Piece2_Bolt3
+    400046: Piece2_Bolt4
+    400048: Piece2_Bolt5
+    400050: Piece2_Bolt6
+    400052: Sphere_Joint
+    400054: Steel_Arm_Piece1
+    400056: Steel_Arm_Piece2
+    2300000: BottomHalf_Joint1
+    2300002: BottomHalf_Joint2
+    2300004: BottomHalf_Joint3
+    2300006: Claw1
+    2300008: Claw2
+    2300010: Claw_Splitter
+    2300012: ClawHolder_Left
+    2300014: ClawHolder_Right
+    2300016: Flat_Joint
+    2300018: Joint on top of Sphere
+    2300020: Joint out of Sphere
+    2300022: Joint1
+    2300024: Joint2
+    2300026: Piece1_Bolt1
+    2300028: Piece1_Bolt2
+    2300030: Piece1_Bolt3
+    2300032: Piece1_Bolt4
+    2300034: Piece1_Bolt5
+    2300036: Piece1_Bolt6
+    2300038: Piece2_Bolt1
+    2300040: Piece2_Bolt2
+    2300042: Piece2_Bolt3
+    2300044: Piece2_Bolt4
+    2300046: Piece2_Bolt5
+    2300048: Piece2_Bolt6
+    2300050: Sphere_Joint
+    2300052: Steel_Arm_Piece1
+    2300054: Steel_Arm_Piece2
+    3300000: BottomHalf_Joint1
+    3300002: BottomHalf_Joint2
+    3300004: BottomHalf_Joint3
+    3300006: Claw1
+    3300008: Claw2
+    3300010: Claw_Splitter
+    3300012: ClawHolder_Left
+    3300014: ClawHolder_Right
+    3300016: Flat_Joint
+    3300018: Joint on top of Sphere
+    3300020: Joint out of Sphere
+    3300022: Joint1
+    3300024: Joint2
+    3300026: Piece1_Bolt1
+    3300028: Piece1_Bolt2
+    3300030: Piece1_Bolt3
+    3300032: Piece1_Bolt4
+    3300034: Piece1_Bolt5
+    3300036: Piece1_Bolt6
+    3300038: Piece2_Bolt1
+    3300040: Piece2_Bolt2
+    3300042: Piece2_Bolt3
+    3300044: Piece2_Bolt4
+    3300046: Piece2_Bolt5
+    3300048: Piece2_Bolt6
+    3300050: Sphere_Joint
+    3300052: Steel_Arm_Piece1
+    3300054: Steel_Arm_Piece2
+    4300000: Steel_Arm_Piece1
+    4300002: Joint1
+    4300004: Steel_Arm_Piece2
+    4300006: Joint on top of Sphere
+    4300008: Sphere_Joint
+    4300010: Joint out of Sphere
+    4300012: Joint2
+    4300014: BottomHalf_Joint1
+    4300016: BottomHalf_Joint3
+    4300018: Flat_Joint
+    4300020: Piece1_Bolt4
+    4300022: Piece2_Bolt1
+    4300024: Piece2_Bolt4
+    4300026: Piece1_Bolt1
+    4300028: Piece1_Bolt2
+    4300030: Piece1_Bolt5
+    4300032: Piece2_Bolt2
+    4300034: Piece1_Bolt3
+    4300036: Piece1_Bolt6
+    4300038: Piece2_Bolt6
+    4300040: Piece2_Bolt5
+    4300042: Piece2_Bolt3
+    4300044: Claw1
+    4300046: Claw2
+    4300048: Claw_Splitter
+    4300050: BottomHalf_Joint2
+    4300052: ClawHolder_Left
+    4300054: ClawHolder_Right
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
