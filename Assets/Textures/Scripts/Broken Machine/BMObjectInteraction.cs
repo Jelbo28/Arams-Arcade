@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class ObjectInteraction : MonoBehaviour
+public class BMObjectInteraction : MonoBehaviour
 {
     [SerializeField] private Image crosshair;
     [SerializeField] private Color crosshairHighlight;

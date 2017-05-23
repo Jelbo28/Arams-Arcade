@@ -17,7 +17,7 @@ public class BrokenMachine : MonoBehaviour
         {
             if (machines[i].transform.GetChild(0).name == "Player")
             {
-                machines[i].transform.GetChild(0).GetComponent<ObjectInteraction>().gameOver = true;
+                machines[i].transform.GetChild(0).GetComponent<BMObjectInteraction>().gameOver = true;
             }
             else
             {
