@@ -20,20 +20,38 @@ public class PauseManager : MonoBehaviour {
     [SerializeField]
     private bool cursorToggle = false;
 
-    // Use this for initialization
-    void Start () {
-        DontDestroyOnLoad(gameObject);
-	    if (!cursorOnStart)
-	    {
-            Cursor.visible = false;
-        }
+    private bool reset = false;
 
-        canvas = GetComponent<Canvas>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if(Input.GetKeyDown(KeyCode.Escape))
+    public static PauseManager instance = null;
+
+    // Use this for initialization
+    void Awake () {
+        DontDestroyOnLoad(gameObject);
+        if (instance == null)
+            instance = this;
+        else if (instance != this)
+            Destroy(gameObject);
+        reset = cursorOnStart;
+
+    }
+
+    void Start()
+    {
+        //DontDestroyOnLoad(gameObject);
+
+        
+
+        canvas = GetComponent<Canvas>();           
+    }
+
+    // Update is called once per frame
+    void Update () {
+        if (reset)
+        {
+            Reset();
+            reset = false;
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Pause();
         }
@@ -52,6 +70,15 @@ public class PauseManager : MonoBehaviour {
         Lowpass();
     }
 
+    public void Reset()
+    {
+        canvas.enabled = false;
+
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        
+    }
+
     void Lowpass()
     {
         if (Time.timeScale == 0)
@@ -62,6 +89,12 @@ public class PauseManager : MonoBehaviour {
         {
             unpaused.TransitionTo(.01f);
         }
+    }
+
+    public void BackToMenu()
+    {
+        reset = true;
+        GetComponent<SceneChanger>().LoadSceneByName("Level_Main");
     }
 
     void Quit()

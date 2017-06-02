@@ -13,31 +13,43 @@ public class SceneChanger : MonoBehaviour
 
     [SerializeField] private MinigameInfo[] allMinigames = new MinigameInfo[6];
     public MinigameInfo currentMinigame;
-    [SerializeField]
-    private Animator fadeAnimator;
 
     private float delay;
+    [SerializeField]
     private bool quit;
     public string sceneAfter;
+    [SerializeField] private string howToPlay;
     [SerializeField] public bool howPlay = false;
+    private NextScene rulesNext;
     private void Start()
     {
-        fadeAnimator = FindObjectOfType<ScoreManager>().GetComponentInChildren<Animator>();
-        DontDestroyOnLoad(gameObject);
+       Cursor.visible = true;
+        if (howPlay)
+            rulesNext = FindObjectOfType<NextScene>();
+        //DontDestroyOnLoad(gameObject);
     }
 
-    public void LoadSceneByName(string sceneName)
+    public void LoadSceneByName(string sceneName = "")
     {
-        if (!howPlay)
+        if (sceneName != "Level_Main")
         {
-            StartCoroutine(SceneDelay(sceneName));
-
+            if (!howPlay)
+            {
+                SetMinigameInfo();
+                SceneDelay(howToPlay);
+                howPlay = true;
+            }
+            else
+            {
+                //sceneAfter = sceneName;
+                //GetComponent<PauseManager>().Reset();
+                SceneDelay(sceneAfter);
+                howPlay = false;
+            }
         }
         else
         {
-            //sceneAfter = sceneName;
-            StartCoroutine(SceneDelay(sceneAfter));
-            howPlay = false;
+            SceneDelay(sceneName);
         }
     }
 
@@ -52,7 +64,7 @@ public class SceneChanger : MonoBehaviour
 
     public void LoadSceneByIndex(int sceneNumber)
     {
-        StartCoroutine(SceneDelay(sceneNumber.ToString()));
+        SceneDelay(sceneNumber.ToString());
     }
 
     public void SetDelay(float delaySet)
@@ -62,10 +74,8 @@ public class SceneChanger : MonoBehaviour
 
 
 
-    private IEnumerator SceneDelay(string scene)
+    void SceneDelay(string scene)
     {
-        fadeAnimator.SetTrigger("FadeOut");
-        yield return new WaitForSeconds(delay);
         if (!quit)
         {
             SceneManager.LoadScene(scene);

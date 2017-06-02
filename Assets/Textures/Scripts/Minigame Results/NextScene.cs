@@ -12,6 +12,7 @@ public class NextScene : MonoBehaviour
     private void Start()
     {
         sceneChanger = FindObjectOfType<SceneChanger>();
+        sceneTo = sceneChanger.sceneAfter;
     }
 
     // Update is called once per frame
