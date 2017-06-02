@@ -74,7 +74,7 @@ public class SceneChanger : MonoBehaviour
 
 
 
-    void SceneDelay(string scene)
+    public void SceneDelay(string scene)
     {
         if (!quit)
         {

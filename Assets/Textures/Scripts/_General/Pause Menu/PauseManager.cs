@@ -31,7 +31,7 @@ public class PauseManager : MonoBehaviour {
             instance = this;
         else if (instance != this)
             Destroy(gameObject);
-        reset = cursorOnStart;
+        reset = true;
 
     }
 
@@ -39,7 +39,6 @@ public class PauseManager : MonoBehaviour {
     {
         //DontDestroyOnLoad(gameObject);
 
-        
 
         canvas = GetComponent<Canvas>();           
     }
@@ -73,7 +72,7 @@ public class PauseManager : MonoBehaviour {
     public void Reset()
     {
         canvas.enabled = false;
-
+        Time.timeScale = 1;
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         

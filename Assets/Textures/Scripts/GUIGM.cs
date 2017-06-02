@@ -28,8 +28,9 @@ public class GUIGM : MonoBehaviour
     // Update is called once per frame
     void Awake()
     {
-        
-        if (SceneManager.GetActiveScene().name /*Application.loadedLevelName*/ == "Level")
+        FindObjectOfType<PauseManager>().Reset();
+
+        if (SceneManager.GetActiveScene().name /*Application.loadedLevelName*/ == "GUI - The Game_1")
         {
             pointTotal = 10;
             pointGraphic.text = "Score: " + pointTotal;
