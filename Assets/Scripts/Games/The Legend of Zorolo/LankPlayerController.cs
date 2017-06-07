@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class PlayerController : MonoBehaviour
+public class LankPlayerController : MonoBehaviour
 {
     [SerializeField]
     Text score;
