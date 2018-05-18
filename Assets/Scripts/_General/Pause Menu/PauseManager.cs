@@ -73,8 +73,8 @@ public class PauseManager : MonoBehaviour {
     {
         canvas.enabled = false;
         Time.timeScale = 1;
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            //Cursor.visible = true;
+            //Cursor.lockState = CursorLockMode.None;
         
     }
 

@@ -35,7 +35,7 @@ public class SceneChanger : MonoBehaviour
         {
             if (!howPlay)
             {
-                SetMinigameInfo();
+                //SetMinigameInfo();
                 SceneDelay(howToPlay);
                 howPlay = true;
             }

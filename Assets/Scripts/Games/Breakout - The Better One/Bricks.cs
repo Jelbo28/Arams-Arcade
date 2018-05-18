@@ -32,7 +32,7 @@ public class Bricks : MonoBehaviour
 
 	void checkColorChange()
 	{
-		Random rnd = new Random ();
+		//Random rnd = new Random ();
 		brickDrop = Random.Range(1, 6);
 		//Debug.Log (brickDrop);
 			/* int nextColor = int collisionNumber;*/
