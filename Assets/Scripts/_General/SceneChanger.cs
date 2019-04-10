@@ -23,7 +23,7 @@ public class SceneChanger : MonoBehaviour
     private NextScene rulesNext;
     private void Start()
     {
-       Cursor.visible = true;
+      // Cursor.visible = true;
         if (howPlay)
             rulesNext = FindObjectOfType<NextScene>();
         //DontDestroyOnLoad(gameObject);
@@ -78,6 +78,7 @@ public class SceneChanger : MonoBehaviour
     {
         if (!quit)
         {
+            GetComponent<MouseVisible>().Lock();
             SceneManager.LoadScene(scene);
         }
         else
