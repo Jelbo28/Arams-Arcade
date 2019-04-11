@@ -54,12 +54,12 @@ public class PauseManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Pause();
-            pause = !pause;
         }
     }
 
     void Pause()
     {
+        pause = !pause;
         canvas.enabled = !canvas.enabled;
         GetComponent<MouseVisible>().pauseMenu = GetComponent<MouseVisible>().pauseMenu == false ? true : false;
         Time.timeScale = Time.timeScale == 0 ? 1 : 0;
@@ -68,7 +68,10 @@ public class PauseManager : MonoBehaviour {
 
     public void Reset()
     {
-//        GetComponent<MouseVisible>().pauseMenu = !GetComponent<MouseVisible>().pauseMenu;
+        //        GetComponent<MouseVisible>().pauseMenu = !GetComponent<MouseVisible>().pauseMenu;
+      
+            GetComponent<MouseVisible>().Lock();
+        
         canvas.enabled = false;
         Time.timeScale = 1;
             //Cursor.visible = true;
@@ -91,7 +94,6 @@ public class PauseManager : MonoBehaviour {
     public void BackToMenu()
     {
         reset = true;
-        GetComponent<MouseVisible>().Lock();
         GetComponent<SceneChanger>().LoadSceneByName("Level_Main");
     }
 

@@ -42,7 +42,7 @@ public class SceneChanger : MonoBehaviour
             else
             {
                 //sceneAfter = sceneName;
-                //GetComponent<PauseManager>().Reset();
+                GetComponent<PauseManager>().Reset();
                 SceneDelay(sceneAfter);
                 howPlay = false;
             }
@@ -78,7 +78,7 @@ public class SceneChanger : MonoBehaviour
     {
         if (!quit)
         {
-            GetComponent<MouseVisible>().Lock();
+            //GetComponent<MouseVisible>().Lock();
             SceneManager.LoadScene(scene);
         }
         else
